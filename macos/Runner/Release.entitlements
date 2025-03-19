@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<!-- Разрешает приложению быть сетевым клиентом (делать исходящие соединения) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<!-- Разрешает приложению быть сетевым сервером (принимать входящие соединения) -->
+	<key>com.apple.security.network.server</key>
+	<true/>
+	
+	<!-- Ограничивает сетевой доступ только конкретными доменами -->
+	<key>com.apple.security.network.client-access</key>
+	<array>
+		<!-- Домен для API котиков -->
+		<string>api.thecatapi.com</string>
+		<!-- Домен для загрузки изображений котиков -->
+		<string>cdn2.thecatapi.com</string>
+	</array>
+</dict>
+</plist>
