@@ -10,8 +10,6 @@
   <img src="https://img.shields.io/badge/Download-APK-green.svg" alt="Download APK">
 </a>
 
-Если кнопка не работает, используйте [прямую ссылку для скачивания](releases/latest/catinder.apk)
-
 ### Собрать из исходников
 
 ```bash
