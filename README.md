@@ -6,7 +6,11 @@
 
 ### Скачать APK
 
-[![Download APK](https://img.shields.io/badge/Download-APK-green.svg)](releases/latest/catinder.apk)
+<a href="releases/latest/catinder.apk" download>
+  <img src="https://img.shields.io/badge/Download-APK-green.svg" alt="Download APK">
+</a>
+
+Если кнопка не работает, используйте [прямую ссылку для скачивания](releases/latest/catinder.apk?raw=true)
 
 ### Собрать из исходников
 
@@ -47,3 +51,7 @@ flutter run
 - Статический анализ кода с помощью `flutter_lints`
 - Форматирование кода с `dart format`
 - Анализ кода с `flutter analyze`
+
+## Лицензия
+
+MIT License
