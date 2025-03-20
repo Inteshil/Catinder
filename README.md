@@ -49,7 +49,3 @@ flutter run
 - Статический анализ кода с помощью `flutter_lints`
 - Форматирование кода с `dart format`
 - Анализ кода с `flutter analyze`
-
-## Лицензия
-
-MIT License
