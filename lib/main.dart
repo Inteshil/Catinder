@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'package:catinder/di.dart';
+import 'package:catinder/presentation/pages/home_page.dart';
 
-void main() {
+void main() async {
+  print('Starting application...');
+  WidgetsFlutterBinding.ensureInitialized();
+  print('Flutter binding initialized');
+  
+  await init();
+  print('DI container initialized');
+  
   runApp(const CatinderApp());
 }
 
@@ -10,10 +18,11 @@ class CatinderApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('Building CatinderApp');
     return MaterialApp(
       title: 'Catinder',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
       home: const HomePage(),
