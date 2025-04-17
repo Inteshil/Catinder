@@ -1,5 +1,5 @@
 name: catinder
-description: A cat dating app
+description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,9 +35,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   dio: ^5.4.1
+  url_launcher: ^6.1.11
   cached_network_image: ^3.3.1
-  flutter_bloc: ^8.1.3
   get_it: ^7.6.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.3
+  http: ^0.13.3
   dartz: ^0.10.1
 
 dev_dependencies:
@@ -101,8 +104,8 @@ flutter_launcher_icons:
   android: true # обновляет android/app/src/main/res/
   ios: true # обновляет ios/Runner/Assets.xcassets/AppIcon.appiconset/
   image_path: "assets/icons/app_icon.png"
-  adaptive_icon_background: "#FFFFFF" # цвет фона для Android
-  adaptive_icon_foreground: "assets/icons/app_icon.png" # передний план для Android
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
   min_sdk_android: 21
   remove_alpha_ios: true
   macos:
